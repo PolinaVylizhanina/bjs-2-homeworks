@@ -51,7 +51,7 @@ function calculateTotalMortgage(percent, contribution, amount, date) {
   }
 
   if (date.getFullYear() < now.getFullYear()) {
-    calert(`Введен некорректный срок кредитования`)
+    alert(`Введен некорректный срок кредитования`)
   }
 
   let P = percent / 12 / 100;
